@@ -1,0 +1,31 @@
+2020-03-20 17:32:20,919 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2020-03-20 17:32:20,919 : INFO : built Dictionary(162 unique tokens: ['1n', 'affliction', 'alliance', 'ambassador', 'amongst']...) from 1 documents (total 234 corpus positions)
+2020-03-20 17:32:20,920 : INFO : saving Dictionary object under ./model/verse31_topics_15_1_gram_dict.dict, separately None
+2020-03-20 17:32:20,921 : INFO : saved ./model/verse31_topics_15_1_gram_dict.dict
+2020-03-20 17:32:20,923 : INFO : storing corpus in Matrix Market format to ./model/verse31_topics_15_1_gram_corpus.mm
+2020-03-20 17:32:20,924 : INFO : saving sparse matrix to ./model/verse31_topics_15_1_gram_corpus.mm
+2020-03-20 17:32:20,924 : INFO : PROGRESS: saving document #0
+2020-03-20 17:32:20,925 : INFO : saved 1x162 matrix, density=100.000% (162/162)
+2020-03-20 17:32:20,925 : INFO : saving MmCorpus index to ./model/verse31_topics_15_1_gram_corpus.mm.index
+2020-03-20 17:32:20,927 : INFO : using symmetric alpha at 0.06666666666666667
+2020-03-20 17:32:20,927 : INFO : using symmetric eta at 0.06666666666666667
+2020-03-20 17:32:20,927 : INFO : using serial LDA version on this node
+2020-03-20 17:32:20,928 : INFO : running online (single-pass) LDA training, 15 topics, 1 passes over the supplied corpus of 1 documents, updating model once every 1 documents, evaluating perplexity every 1 documents, iterating 50x with a convergence threshold of 0.001000
+2020-03-20 17:32:20,928 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2020-03-20 17:32:20,931 : INFO : -20.446 per-word bound, 1428574.8 perplexity estimate based on a held-out corpus of 1 documents with 234 words
+2020-03-20 17:32:20,931 : INFO : PROGRESS: pass 0, at document #1/1
+2020-03-20 17:32:20,933 : INFO : topic #14 (0.067): 0.006*"house" + 0.006*"mountain" + 0.006*"day" + 0.006*"esau" + 0.006*"don’t" + 0.006*"posse" + 0.006*"lord" + 0.006*"pride" + 0.006*"proudly" + 0.006*"ransacked"
+2020-03-20 17:32:20,934 : INFO : topic #9 (0.067): 0.031*"day" + 0.028*"don’t" + 0.024*"posse" + 0.024*"lord" + 0.021*"esau" + 0.020*"mountain" + 0.018*"amongst" + 0.017*"nation" + 0.014*"house" + 0.011*"cut"
+2020-03-20 17:32:20,934 : INFO : topic #5 (0.067): 0.037*"day" + 0.025*"don’t" + 0.023*"esau" + 0.022*"amongst" + 0.020*"lord" + 0.018*"house" + 0.017*"posse" + 0.012*"nation" + 0.012*"mount" + 0.011*"cut"
+2020-03-20 17:32:20,934 : INFO : topic #2 (0.067): 0.024*"day" + 0.018*"don’t" + 0.016*"esau" + 0.016*"amongst" + 0.014*"posse" + 0.014*"mountain" + 0.014*"lord" + 0.011*"jacob" + 0.011*"house" + 0.010*"nation"
+2020-03-20 17:32:20,934 : INFO : topic #13 (0.067): 0.032*"day" + 0.022*"don’t" + 0.022*"mountain" + 0.022*"posse" + 0.018*"esau" + 0.017*"house" + 0.016*"amongst" + 0.016*"lord" + 0.015*"nation" + 0.012*"edom"
+2020-03-20 17:32:20,934 : INFO : topic diff=7.036208, rho=1.000000
+2020-03-20 17:32:20,935 : INFO : saving LdaState object under ./model/verse31_topics_15_1_gram_lda.model.state, separately None
+2020-03-20 17:32:20,936 : INFO : saved ./model/verse31_topics_15_1_gram_lda.model.state
+2020-03-20 17:32:20,937 : INFO : saving LdaModel object under ./model/verse31_topics_15_1_gram_lda.model, separately ['expElogbeta', 'sstats']
+2020-03-20 17:32:20,937 : INFO : storing np array 'expElogbeta' to ./model/verse31_topics_15_1_gram_lda.model.expElogbeta.npy
+2020-03-20 17:32:20,943 : INFO : not storing attribute state
+2020-03-20 17:32:20,943 : INFO : not storing attribute id2word
+2020-03-20 17:32:20,943 : INFO : not storing attribute dispatcher
+2020-03-20 17:32:20,944 : INFO : saved ./model/verse31_topics_15_1_gram_lda.model
+2020-03-20 17:32:20,958 : INFO : NumExpr defaulting to 4 threads.

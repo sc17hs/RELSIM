@@ -1,0 +1,52 @@
+2020-03-21 01:46:17,359 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2020-03-21 01:46:17,444 : INFO : built Dictionary(5429 unique tokens: ['allah', 'compassionate', 'merciful', 'name', 'entire']...) from 4218 documents (total 44078 corpus positions)
+2020-03-21 01:46:17,445 : INFO : saving Dictionary object under ./model/quran_topics_30_1_gram_dict.dict, separately None
+2020-03-21 01:46:17,452 : INFO : saved ./model/quran_topics_30_1_gram_dict.dict
+2020-03-21 01:46:17,511 : INFO : storing corpus in Matrix Market format to ./model/quran_topics_30_1_gram_corpus.mm
+2020-03-21 01:46:17,512 : INFO : saving sparse matrix to ./model/quran_topics_30_1_gram_corpus.mm
+2020-03-21 01:46:17,512 : INFO : PROGRESS: saving document #0
+2020-03-21 01:46:17,537 : INFO : PROGRESS: saving document #1000
+2020-03-21 01:46:17,557 : INFO : PROGRESS: saving document #2000
+2020-03-21 01:46:17,575 : INFO : PROGRESS: saving document #3000
+2020-03-21 01:46:17,592 : INFO : PROGRESS: saving document #4000
+2020-03-21 01:46:17,596 : INFO : saved 4218x5429 matrix, density=0.177% (40605/22899522)
+2020-03-21 01:46:17,607 : INFO : saving MmCorpus index to ./model/quran_topics_30_1_gram_corpus.mm.index
+2020-03-21 01:46:17,623 : INFO : using symmetric alpha at 0.03333333333333333
+2020-03-21 01:46:17,623 : INFO : using symmetric eta at 0.03333333333333333
+2020-03-21 01:46:17,624 : INFO : using serial LDA version on this node
+2020-03-21 01:46:17,644 : INFO : running online (single-pass) LDA training, 30 topics, 1 passes over the supplied corpus of 4218 documents, updating model once every 2000 documents, evaluating perplexity every 4218 documents, iterating 50x with a convergence threshold of 0.001000
+2020-03-21 01:46:17,644 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2020-03-21 01:46:17,644 : INFO : PROGRESS: pass 0, at document #2000/4218
+2020-03-21 01:46:18,943 : INFO : merging changes from 2000 documents into a model of 4218 documents
+2020-03-21 01:46:18,954 : INFO : topic #28 (0.033): 0.066*"allah" + 0.019*"lord" + 0.014*"surely" + 0.010*"revealed" + 0.009*"call" + 0.009*"follow" + 0.008*"truth" + 0.008*"believe" + 0.008*"evil" + 0.007*"indeed"
+2020-03-21 01:46:18,954 : INFO : topic #5 (0.033): 0.054*"allah" + 0.012*"lord" + 0.009*"surely" + 0.009*"abraham" + 0.009*"people" + 0.009*"help" + 0.008*"book" + 0.007*"life" + 0.006*"call" + 0.006*"messenger"
+2020-03-21 01:46:18,955 : INFO : topic #14 (0.033): 0.076*"allah" + 0.012*"people" + 0.010*"world" + 0.010*"reward" + 0.009*"believe" + 0.009*"believer" + 0.008*"earth" + 0.008*"heart" + 0.007*"woman" + 0.007*"chastisement"
+2020-03-21 01:46:18,955 : INFO : topic #7 (0.033): 0.081*"allah" + 0.014*"lord" + 0.013*"people" + 0.012*"indeed" + 0.009*"believer" + 0.007*"messenger" + 0.007*"judge" + 0.007*"life" + 0.007*"prophet" + 0.006*"child"
+2020-03-21 01:46:18,955 : INFO : topic #19 (0.033): 0.044*"lord" + 0.018*"people" + 0.017*"surely" + 0.015*"allah" + 0.012*"sign" + 0.010*"indeed" + 0.010*"prayer" + 0.009*"earth" + 0.008*"angel" + 0.008*"faith"
+2020-03-21 01:46:18,956 : INFO : topic diff=25.901413, rho=1.000000
+2020-03-21 01:46:18,956 : INFO : PROGRESS: pass 0, at document #4000/4218
+2020-03-21 01:46:19,653 : INFO : merging changes from 2000 documents into a model of 4218 documents
+2020-03-21 01:46:19,663 : INFO : topic #15 (0.033): 0.040*"allah" + 0.027*"lord" + 0.025*"people" + 0.021*"deed" + 0.012*"time" + 0.011*"indeed" + 0.009*"day" + 0.009*"believe" + 0.009*"resurrection" + 0.008*"prophet"
+2020-03-21 01:46:19,663 : INFO : topic #14 (0.033): 0.062*"allah" + 0.017*"woman" + 0.012*"heart" + 0.012*"task" + 0.012*"creation" + 0.011*"world" + 0.011*"earth" + 0.011*"endowed" + 0.010*"chastisement" + 0.010*"people"
+2020-03-21 01:46:19,663 : INFO : topic #18 (0.033): 0.039*"messenger" + 0.025*"allah" + 0.021*"people" + 0.019*"lord" + 0.016*"deity" + 0.014*"account" + 0.013*"book" + 0.012*"day" + 0.011*"nay" + 0.010*"glorify"
+2020-03-21 01:46:19,663 : INFO : topic #25 (0.033): 0.039*"lord" + 0.034*"allah" + 0.015*"people" + 0.014*"moses" + 0.010*"promise" + 0.009*"indeed" + 0.008*"host" + 0.008*"mighty" + 0.007*"provision" + 0.007*"fulfilled"
+2020-03-21 01:46:19,664 : INFO : topic #9 (0.033): 0.022*"moses" + 0.019*"allah" + 0.019*"believe" + 0.014*"wise" + 0.013*"life" + 0.013*"people" + 0.011*"rod" + 0.011*"lord" + 0.010*"blind" + 0.009*"throw"
+2020-03-21 01:46:19,664 : INFO : topic diff=0.428297, rho=0.707107
+2020-03-21 01:46:19,787 : INFO : -13.201 per-word bound, 9415.2 perplexity estimate based on a held-out corpus of 218 documents with 2092 words
+2020-03-21 01:46:19,787 : INFO : PROGRESS: pass 0, at document #4218/4218
+2020-03-21 01:46:19,875 : INFO : merging changes from 218 documents into a model of 4218 documents
+2020-03-21 01:46:19,885 : INFO : topic #6 (0.033): 0.044*"allah" + 0.029*"worship" + 0.025*"verily" + 0.023*"parable" + 0.022*"position" + 0.021*"constantly" + 0.019*"arrive" + 0.019*"lord" + 0.019*"indeed" + 0.017*"sign"
+2020-03-21 01:46:19,885 : INFO : topic #7 (0.033): 0.101*"allah" + 0.041*"judge" + 0.021*"son" + 0.020*"tidings" + 0.019*"whereas" + 0.018*"prophet" + 0.017*"religion" + 0.015*"concerning" + 0.012*"surely" + 0.012*"believer"
+2020-03-21 01:46:19,885 : INFO : topic #4 (0.033): 0.039*"proud" + 0.032*"subjected" + 0.030*"allah" + 0.025*"waxed" + 0.024*"night" + 0.022*"blown" + 0.021*"remembrance" + 0.020*"day" + 0.020*"skin" + 0.018*"believing"
+2020-03-21 01:46:19,885 : INFO : topic #8 (0.033): 0.055*"surely" + 0.047*"allah" + 0.024*"water" + 0.020*"people" + 0.019*"counsel" + 0.018*"boiling" + 0.017*"bounteous" + 0.017*"lord" + 0.016*"continue" + 0.015*"child"
+2020-03-21 01:46:19,886 : INFO : topic #17 (0.033): 0.044*"understanding" + 0.030*"truth" + 0.029*"allah" + 0.026*"vain" + 0.026*"kingdom" + 0.026*"lie" + 0.021*"heaven" + 0.021*"sign" + 0.020*"none" + 0.020*"knowledge"
+2020-03-21 01:46:19,886 : INFO : topic diff=0.337475, rho=0.577350
+2020-03-21 01:46:19,891 : INFO : saving LdaState object under ./model/quran_topics_30_1_gram_lda.model.state, separately None
+2020-03-21 01:46:19,900 : INFO : saved ./model/quran_topics_30_1_gram_lda.model.state
+2020-03-21 01:46:19,907 : INFO : saving LdaModel object under ./model/quran_topics_30_1_gram_lda.model, separately ['expElogbeta', 'sstats']
+2020-03-21 01:46:19,908 : INFO : storing np array 'expElogbeta' to ./model/quran_topics_30_1_gram_lda.model.expElogbeta.npy
+2020-03-21 01:46:19,917 : INFO : not storing attribute state
+2020-03-21 01:46:19,917 : INFO : not storing attribute dispatcher
+2020-03-21 01:46:19,917 : INFO : not storing attribute id2word
+2020-03-21 01:46:19,922 : INFO : saved ./model/quran_topics_30_1_gram_lda.model
+2020-03-21 01:46:21,200 : INFO : NumExpr defaulting to 4 threads.
